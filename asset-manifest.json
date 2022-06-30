@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/region-28-website/static/css/main.f5d926f5.css",
-    "main.js": "/region-28-website/static/js/main.876ada68.js",
+    "main.js": "/region-28-website/static/js/main.a2fd03d6.js",
     "static/js/787.9a49c200.chunk.js": "/region-28-website/static/js/787.9a49c200.chunk.js",
     "index.html": "/region-28-website/index.html",
     "main.f5d926f5.css.map": "/region-28-website/static/css/main.f5d926f5.css.map",
-    "main.876ada68.js.map": "/region-28-website/static/js/main.876ada68.js.map",
+    "main.a2fd03d6.js.map": "/region-28-website/static/js/main.a2fd03d6.js.map",
     "787.9a49c200.chunk.js.map": "/region-28-website/static/js/787.9a49c200.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5d926f5.css",
-    "static/js/main.876ada68.js"
+    "static/js/main.a2fd03d6.js"
   ]
 }
