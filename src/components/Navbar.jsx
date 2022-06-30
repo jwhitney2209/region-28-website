@@ -29,7 +29,7 @@ const Navigation = () => {
             isNavActive ? "is-active" : ""
           }`}>
         <div className="navbar-start">
-          <Link to="/" className="navbar-item">
+          <Link to="/home" className="navbar-item">
             Home
           </Link>
 
