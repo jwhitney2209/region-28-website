@@ -1,20 +1,43 @@
 import React from "react";
 import AnimatePage from "./AnimatePage";
+import { HiDownload } from "react-icons/hi";
 
 const Home = () => {
   return (
     <AnimatePage>
       <div>
+        <article className="notification is-info is-light m-4">
+          <div className="">
+            Welcome to the new Region 28 Vocal Division website! Please take
+            time to click around the site and explore!
+          </div>
+        </article>
         <section class="section">
           <h1 className="title">Welcome!</h1>
           <h2 className="subtitle">TMEA Region 28 Vocal Division</h2>
-          <p className="subtitle is-6">
-            Chair: Mindy Bersalona, Donna High School
+          <p className="">
+            <strong>Chair:</strong> Mindy Bersalona, Donna High School
             <br />
-            Vice-Chair: Travis Baldwin, Veterans Memorial ECHS
+            <strong>Vice-Chair:</strong> Travis Baldwin, Veterans Memorial ECHS
             <br />
-            Secretary/Treasurer: Tiffany Gibson, Rivera ECHS
+            <strong>Secretary/Treasurer:</strong> Tiffany Gibson, Rivera ECHS
             <br />
+            <br />
+            <strong>Middle School Chair:</strong> Robert Sanchez, Garcia MS
+            <br />
+            <strong>Middle School Vice-Chair:</strong> Katia Mares, Garcia MS
+            <br />
+            <strong>Middle School Treasurer:</strong> Vanessa Lopez-Torres,
+            Vernon MS
+            <br />
+            <strong>Middle School Secretary:</strong> Rebecca Albritton,
+            Memorial MS
+            <br />
+            <br />
+            <button className="button is-link is-outlined" disabled>
+              <HiDownload />
+              Region 28 Handbook
+            </button>
             <br />
             <br />
             Navigate to the menu option to find information on different
