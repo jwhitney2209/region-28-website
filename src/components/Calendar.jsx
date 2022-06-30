@@ -4,8 +4,8 @@ import AnimatePage from "./AnimatePage";
 const Calendar = () => {
   return (
     <AnimatePage>
-      <article className="message is-info m-4">
-        <div className="message-body">
+      <article className="notification is-info is-light m-4">
+        <div className="">
           <strong>This page is currently under construction!</strong>
           <br />
         </div>
