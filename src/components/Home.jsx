@@ -17,8 +17,8 @@ const Home = () => {
             <br />
             <br />
             <br />
-            Navigate to the menu option to find information on different sections
-            of the website.
+            Navigate to the menu option to find information on different
+            sections of the website.
             <br />
             <br />
             <strong>Calendar</strong> will have the region's calendar of events
@@ -27,15 +27,21 @@ const Home = () => {
             <br />
             <br />
             <strong>Directory</strong> will have a list of school contact
-            information for all middle school and high school campuses within the
-            region. If your contact information is not up to date please <a href="mailto:jwhitney@bisd.us" alt="email"> email
-            the site administrator here.
+            information for all middle school and high school campuses within
+            the region. If your contact information is not up to date please{" "}
+            <a href="mailto:jwhitney@bisd.us" alt="email">
+              {" "}
+              email the site administrator here.
             </a>
+            <br />
+            <br />
+            <strong>High School</strong> and <strong>Middle School</strong>{" "}
+            division tabs will have information, handbooks, and announcements
+            specific to the division.
           </p>
         </section>
       </div>
     </AnimatePage>
-
   );
 };
 
