@@ -3,7 +3,7 @@ const SongList = (props) => {
   return (
     <div>
       {song.map((song) => (
-      <blockquote>
+      <blockquote key={song.id}>
         <strong>Title:</strong> {song.title}
         <br />
         <strong>Composer/Arranger:</strong> {song.composer}

@@ -12,7 +12,7 @@ const Home = () => {
             time to click around the site and explore!
           </div>
         </article>
-        <section class="section">
+        <section className="section">
           <h1 className="title">Welcome!</h1>
           <h2 className="subtitle">TMEA Region 28 Vocal Division</h2>
           <p className="">

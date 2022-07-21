@@ -3,7 +3,7 @@ const VacancyList = (props) => {
   return (
     <div>
       {info.map((info) => (
-        <div className="box">
+        <div key={info.id} className="box">
           <strong>District:</strong> {info.district}
           <br />
           <strong>School:</strong> {info.school}

@@ -6,6 +6,7 @@ const HighSchool = () => {
   // eslint-disable-next-line
   const [songList, setSongList] = useState([
     {
+      id: 1,
       title: "Tshotsholoza",
       composer: "Jeffery L. Ames",
       publisher: 'Walton Music',
@@ -13,6 +14,7 @@ const HighSchool = () => {
       pepper: "https://www.jwpepper.com/10276407.item#.Yr3F1nbMJD8",
     },
     {
+      id: 2,
       title: "Sing To Me",
       composer: "Reginal Wright",
       publisher: 'Santa Barbara Music Publishing',
@@ -20,6 +22,7 @@ const HighSchool = () => {
       pepper: "https://www.jwpepper.com/Sing-to-Me/11196481.item#.Yr3GO3bMJD8",
     },
     {
+      id: 3,
       title: "Zion's Walls",
       composer: "Copeland/Koponen",
       publisher: 'Boosey & Hawkes, Inc',
@@ -27,6 +30,7 @@ const HighSchool = () => {
       pepper: "https://www.jwpepper.com/Zion%27s-Walls/1478338.item#.Yr3GWnbMJD8",
     },
     {
+      id: 4,
       title: "Gloria in excelsis Deo",
       composer: "Antonio Vivaldi/Thomas",
       publisher: 'Lorenz Coproration',

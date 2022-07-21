@@ -6,6 +6,7 @@ const Jobs = () => {
   // eslint-disable-next-line
   const [vacancyList, setVacancyList] = useState([
     {
+      id: 1,
       school: 'Besteiro MS',
       position: 'Head Choir Director',
       contactName: 'Melody Eriksen',

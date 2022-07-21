@@ -3,11 +3,12 @@ import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Directory from './components/Directory';
+import Directory from './pages/Directory';
 import Calendar from './components/Calendar';
 import HighSchool from './components/HighSchool';
 import MiddleSchool from './components/MiddleSchool';
 import Jobs from './components/Jobs';
+import AddDirector from './components/AddDirector';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/highschool' element={<HighSchool />} />
           <Route path='/middleschool' element={<MiddleSchool />} />
           <Route path='/jobs' element={<Jobs />} />
+          <Route path='/newdirector' element={<AddDirector />} />
         </Routes>
       </div>
       <Footer />
