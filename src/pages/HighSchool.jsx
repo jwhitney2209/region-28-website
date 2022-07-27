@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import AnimatePage from "./AnimatePage";
-import SongList from "./SongList/SongList";
+import AnimatePage from "../components/AnimatePage";
+import SongList from "../components/SongList/SongList";
 
 const HighSchool = () => {
   // eslint-disable-next-line

@@ -1,20 +1,10 @@
 import React, { useState } from "react";
-import AnimatePage from "./AnimatePage";
-import VacancyList from "./VacancyList/VacancyList";
+import AnimatePage from "../components/AnimatePage";
+import VacancyList from "../components/VacancyList/VacancyList";
 
 const Jobs = () => {
   // eslint-disable-next-line
-  const [vacancyList, setVacancyList] = useState([
-    {
-      id: 1,
-      school: 'Besteiro MS',
-      position: 'Head Choir Director',
-      contactName: 'Melody Eriksen',
-      contactNumber: '',
-      contactEmail: 'mceriksen@bisd.us',
-      district: 'Brownsville ISD'
-    }
-  ])
+  const [vacancyList, setVacancyList] = useState([{}])
   return (
     <AnimatePage>
       <div className="notification is-info is-light m-4">
@@ -32,7 +22,7 @@ const Jobs = () => {
       <div className="section">
         <div className="content"> 
           <h1>Current Vacancies:</h1>
-          <VacancyList info={vacancyList} />
+          {vacancyList.lenghth ? <VacancyList info={vacancyList} /> : <p>No reported vacancies at this time.</p>}
         </div>
       </div>
     </AnimatePage>

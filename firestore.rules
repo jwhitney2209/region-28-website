@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /directors/{document=**} {
+      allow read;
+    }
+    match /directors_ms/{document=**} {
+      allow read;
+    }
+  }
+}

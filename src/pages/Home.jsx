@@ -1,5 +1,5 @@
 import React from "react";
-import AnimatePage from "./AnimatePage";
+import AnimatePage from "../components/AnimatePage";
 import { HiDownload } from "react-icons/hi";
 
 const Home = () => {

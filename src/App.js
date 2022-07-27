@@ -2,13 +2,13 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Directory from './pages/Directory';
 import Calendar from './components/Calendar';
-import HighSchool from './components/HighSchool';
-import MiddleSchool from './components/MiddleSchool';
-import Jobs from './components/Jobs';
-import AddDirector from './components/AddDirector';
+import HighSchool from './pages/HighSchool';
+import MiddleSchool from './pages/MiddleSchool';
+import Jobs from './pages/Jobs';
+import AddDirector from './pages/AddDirector';
 
 function App() {
   return (
